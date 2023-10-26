@@ -1,0 +1,2192 @@
+{
+ "data": {
+  "__typename": "Query",
+  "elements": {
+   "__typename": "ElementQueryResult",
+   "count": 20,
+   "facets": [
+    {
+     "__typename": "Facet",
+     "id": "element.facet.system",
+     "key": "variants.attributes.system.key",
+     "labels": [
+      {
+       "__typename": "FacetValue",
+       "children": null,
+       "count": 13080,
+       "key": "LEGO",
+       "name": "LEGO",
+       "value": "LEGO"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": null,
+       "count": 1381,
+       "key": "TECHNIC",
+       "name": "TECHNIC",
+       "value": "TECHNIC"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": null,
+       "count": 1159,
+       "key": "DUPLO",
+       "name": "DUPLO",
+       "value": "DUPLO"
+      }
+     ],
+     "name": "Piece Type"
+    },
+    {
+     "__typename": "Facet",
+     "id": "element.facet.pickABrick",
+     "key": "variants.attributes.categoryId",
+     "labels": [
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 361,
+         "key": "59",
+         "name": "Animals \u0026 Creatures",
+         "value": "59"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 173,
+         "key": "28",
+         "name": "Trees \u0026 Plants",
+         "value": "28"
+        }
+       ],
+       "count": 534,
+       "key": "8",
+       "name": "Animals \u0026 Nature",
+       "value": "8"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 11,
+         "key": "18",
+         "name": "Baseplates",
+         "value": "18"
+        }
+       ],
+       "count": 11,
+       "key": "4",
+       "name": "Baseplates",
+       "value": "4"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 792,
+         "key": "1",
+         "name": "Bricks",
+         "value": "1"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 1064,
+         "key": "7",
+         "name": "Bricks, Bows \u0026 Arches",
+         "value": "7"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 99,
+         "key": "6",
+         "name": "Bricks, Inverted Slopes",
+         "value": "6"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 347,
+         "key": "2",
+         "name": "Bricks, Modified",
+         "value": "2"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 128,
+         "key": "8",
+         "name": "Bricks, Modified Bows \u0026 Arches",
+         "value": "8"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 481,
+         "key": "3",
+         "name": "Bricks, Round \u0026 Angles",
+         "value": "3"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 706,
+         "key": "5",
+         "name": "Bricks, Slopes",
+         "value": "5"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 172,
+         "key": "4",
+         "name": "Technic Brick",
+         "value": "4"
+        }
+       ],
+       "count": 3789,
+       "key": "1",
+       "name": "Bricks",
+       "value": "1"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 99,
+         "key": "35",
+         "name": "Fences \u0026 Ladders",
+         "value": "35"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 182,
+         "key": "27",
+         "name": "Furniture",
+         "value": "27"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 67,
+         "key": "26",
+         "name": "Gates \u0026 Roofs",
+         "value": "26"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 165,
+         "key": "36",
+         "name": "Signs, Flags \u0026 Poles",
+         "value": "36"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 590,
+         "key": "25",
+         "name": "Windows, Walls \u0026 Doors",
+         "value": "25"
+        }
+       ],
+       "count": 1103,
+       "key": "5",
+       "name": "Buildings \u0026 Furniture",
+       "value": "5"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 95,
+         "key": "91",
+         "name": "Cables \u0026 Hoses",
+         "value": "91"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 29,
+         "key": "90",
+         "name": "Rubber Bands \u0026 Strings",
+         "value": "90"
+        }
+       ],
+       "count": 124,
+       "key": "10",
+       "name": "Cables, Hoses \u0026 Strings",
+       "value": "10"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 343,
+         "key": "85",
+         "name": "Connectors",
+         "value": "85"
+        }
+       ],
+       "count": 343,
+       "key": "13",
+       "name": "Connectors",
+       "value": "13"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 13,
+         "key": "37",
+         "name": "Cardboard, Foil \u0026 Foam",
+         "value": "37"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 32,
+         "key": "55",
+         "name": "Fabric Clothing \u0026 Accessories",
+         "value": "55"
+        }
+       ],
+       "count": 45,
+       "key": "12",
+       "name": "Fabric \u0026 Textiles",
+       "value": "12"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 104,
+         "key": "49",
+         "name": "Food \u0026 Drink",
+         "value": "49"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 43,
+         "key": "45",
+         "name": "Machine Arms",
+         "value": "45"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 457,
+         "key": "46",
+         "name": "Minifigure Handheld Accessories",
+         "value": "46"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 282,
+         "key": "44",
+         "name": "Minifigure Headwear",
+         "value": "44"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 123,
+         "key": "53",
+         "name": "Minifigure Headwear Accessories",
+         "value": "53"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 188,
+         "key": "47",
+         "name": "Minifigure Tools \u0026 Accessories",
+         "value": "47"
+        }
+       ],
+       "count": 1197,
+       "key": "6",
+       "name": "Minifigure Accessories",
+       "value": "6"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 14,
+         "key": "52",
+         "name": "Armour",
+         "value": "52"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 82,
+         "key": "50",
+         "name": "DUPLO figures",
+         "value": "50"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 384,
+         "key": "43",
+         "name": "Minifigure Hair",
+         "value": "43"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 421,
+         "key": "42",
+         "name": "Minifigure Heads",
+         "value": "42"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 901,
+         "key": "40",
+         "name": "Minifigure Torso \u0026 Legs",
+         "value": "40"
+        }
+       ],
+       "count": 1802,
+       "key": "7",
+       "name": "Minifigure Parts",
+       "value": "7"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 426,
+         "key": "81",
+         "name": "Decoration Elements",
+         "value": "81"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 222,
+         "key": "86",
+         "name": "Functional Elements",
+         "value": "86"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 12,
+         "key": "87",
+         "name": "Functional Elements, Other",
+         "value": "87"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 91,
+         "key": "96",
+         "name": "Miscellaneous Elements",
+         "value": "96"
+        }
+       ],
+       "count": 751,
+       "key": "14",
+       "name": "Miscellaneous",
+       "value": "14"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 1767,
+         "key": "15",
+         "name": "Plates",
+         "value": "15"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 823,
+         "key": "16",
+         "name": "Plates, Modified",
+         "value": "16"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 1494,
+         "key": "17",
+         "name": "Plates, Round \u0026 Angles",
+         "value": "17"
+        }
+       ],
+       "count": 4084,
+       "key": "3",
+       "name": "Plates",
+       "value": "3"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 7,
+         "key": "92",
+         "name": "Electric Parts",
+         "value": "92"
+        }
+       ],
+       "count": 7,
+       "key": "11",
+       "name": "Power Functions",
+       "value": "11"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 187,
+         "key": "11",
+         "name": "Modified Technic Beams",
+         "value": "11"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 21,
+         "key": "21",
+         "name": "Modified Technic Half Beams",
+         "value": "21"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 204,
+         "key": "10",
+         "name": "Technic Beams",
+         "value": "10"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 23,
+         "key": "13",
+         "name": "Technic Beams with Ball \u0026 Cup",
+         "value": "13"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 242,
+         "key": "12",
+         "name": "Technic Beams with Shapes",
+         "value": "12"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 81,
+         "key": "20",
+         "name": "Technic Half Beams",
+         "value": "20"
+        }
+       ],
+       "count": 758,
+       "key": "2",
+       "name": "Technic Beams",
+       "value": "2"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 96,
+         "key": "75",
+         "name": "Aircraft Parts",
+         "value": "75"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 48,
+         "key": "76",
+         "name": "Cranes \u0026 Scaffold",
+         "value": "76"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 63,
+         "key": "88",
+         "name": "Gears \u0026 Gear Racks",
+         "value": "88"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 76,
+         "key": "66",
+         "name": "Large Tyres \u0026 Rims",
+         "value": "66"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 83,
+         "key": "67",
+         "name": "Modified Tyres \u0026 Rims",
+         "value": "67"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 34,
+         "key": "73",
+         "name": "Ship Parts",
+         "value": "73"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 28,
+         "key": "65",
+         "name": "Small Tyres \u0026 Rims",
+         "value": "65"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 91,
+         "key": "74",
+         "name": "Train Parts",
+         "value": "74"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 314,
+         "key": "72",
+         "name": "Vehicle Parts",
+         "value": "72"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 107,
+         "key": "68",
+         "name": "Wheel Base",
+         "value": "68"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 133,
+         "key": "77",
+         "name": "Windscreens",
+         "value": "77"
+        }
+       ],
+       "count": 1073,
+       "key": "9",
+       "name": "Vehicles \u0026 Transportation",
+       "value": "9"
+      }
+     ],
+     "name": "Category"
+    },
+    {
+     "__typename": "Facet",
+     "id": "element.facet.colourFamily",
+     "key": "variants.attributes.colourFamilyId",
+     "labels": [
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 1384,
+         "key": "26",
+         "name": "Black",
+         "value": "26"
+        }
+       ],
+       "count": 1384,
+       "key": "26",
+       "name": "Black",
+       "value": "26"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 162,
+         "key": "323",
+         "name": "Aqua",
+         "value": "323"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 444,
+         "key": "23",
+         "name": "Bright Blue",
+         "value": "23"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 248,
+         "key": "107",
+         "name": "Bright Bluish Green",
+         "value": "107"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 280,
+         "key": "321",
+         "name": "Dark Azur",
+         "value": "321"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 365,
+         "key": "140",
+         "name": "Earth Blue",
+         "value": "140"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 173,
+         "key": "212",
+         "name": "Light Royal Blue",
+         "value": "212"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 343,
+         "key": "322",
+         "name": "Medium Azur",
+         "value": "322"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 84,
+         "key": "102",
+         "name": "Medium Blue",
+         "value": "102"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 114,
+         "key": "135",
+         "name": "Sand Blue",
+         "value": "135"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 33,
+         "key": "43",
+         "name": "Transparent Blue",
+         "value": "43"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 6,
+         "key": "366",
+         "name": "Transparent Blue With Opalescence",
+         "value": "366"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 127,
+         "key": "42",
+         "name": "Transparent Light Blue",
+         "value": "42"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 3,
+         "key": "302",
+         "name": "Transparent Light Blue With Glitter",
+         "value": "302"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 22,
+         "key": "362",
+         "name": "Transparent Light Blue With Opalescence",
+         "value": "362"
+        }
+       ],
+       "count": 2404,
+       "key": "23",
+       "name": "Blue",
+       "value": "23"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 485,
+         "key": "5",
+         "name": "Brick Yellow",
+         "value": "5"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 157,
+         "key": "308",
+         "name": "Dark Brown",
+         "value": "308"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 216,
+         "key": "38",
+         "name": "Dark Orange",
+         "value": "38"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 111,
+         "key": "283",
+         "name": "Light Nougat",
+         "value": "283"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 301,
+         "key": "312",
+         "name": "Medium Nougat",
+         "value": "312"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 76,
+         "key": "18",
+         "name": "Nougat",
+         "value": "18"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 522,
+         "key": "192",
+         "name": "Reddish Brown",
+         "value": "192"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 259,
+         "key": "138",
+         "name": "Sand Yellow",
+         "value": "138"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 59,
+         "key": "111",
+         "name": "Transparent Brown",
+         "value": "111"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 2,
+         "key": "363",
+         "name": "Transparent Brown With Opalescence",
+         "value": "363"
+        }
+       ],
+       "count": 2188,
+       "key": "192",
+       "name": "Brown",
+       "value": "192"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 200,
+         "key": "37",
+         "name": "Bright Green",
+         "value": "37"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 355,
+         "key": "119",
+         "name": "Bright Yellowish Green",
+         "value": "119"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 287,
+         "key": "28",
+         "name": "Dark Green",
+         "value": "28"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 152,
+         "key": "141",
+         "name": "Earth Green",
+         "value": "141"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 74,
+         "key": "330",
+         "name": "Olive Green",
+         "value": "330"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 194,
+         "key": "151",
+         "name": "Sand Green",
+         "value": "151"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 64,
+         "key": "326",
+         "name": "Spring Yellowish Green",
+         "value": "326"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 27,
+         "key": "311",
+         "name": "Transparent Bright Green",
+         "value": "311"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 12,
+         "key": "48",
+         "name": "Transparent Green",
+         "value": "48"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 4,
+         "key": "367",
+         "name": "Transparent Green With Opalescence",
+         "value": "367"
+        }
+       ],
+       "count": 1369,
+       "key": "28",
+       "name": "Green",
+       "value": "28"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 756,
+         "key": "199",
+         "name": "Dark Stone Grey",
+         "value": "199"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 993,
+         "key": "194",
+         "name": "Medium Stone Grey",
+         "value": "194"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 83,
+         "key": "316",
+         "name": "Titanium Metallic",
+         "value": "316"
+        }
+       ],
+       "count": 1832,
+       "key": "194",
+       "name": "Grey",
+       "value": "194"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 128,
+         "key": "325",
+         "name": "Lavender",
+         "value": "325"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 95,
+         "key": "324",
+         "name": "Medium Lavender",
+         "value": "324"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 178,
+         "key": "268",
+         "name": "Medium Lilac",
+         "value": "268"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 3,
+         "key": "129",
+         "name": "Transparent Bright Blue/Violet With Glitter",
+         "value": "129"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 25,
+         "key": "126",
+         "name": "Transparent Bright Violet",
+         "value": "126"
+        }
+       ],
+       "count": 429,
+       "key": "268",
+       "name": "Lilac",
+       "value": "268"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 37,
+         "key": "335",
+         "name": "Gold Ink",
+         "value": "335"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 39,
+         "key": "336",
+         "name": "Silver Ink",
+         "value": "336"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 131,
+         "key": "315",
+         "name": "Silver Metallic",
+         "value": "315"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 294,
+         "key": "297",
+         "name": "Warm Gold",
+         "value": "297"
+        }
+       ],
+       "count": 501,
+       "key": "346",
+       "name": "Metallic",
+       "value": "346"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 382,
+         "key": "106",
+         "name": "Bright Orange",
+         "value": "106"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 53,
+         "key": "182",
+         "name": "Transparent Bright Orange",
+         "value": "182"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 4,
+         "key": "47",
+         "name": "Transparent Fluorescent Reddish Orange",
+         "value": "47"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 105,
+         "key": "353",
+         "name": "Vibrant Coral",
+         "value": "353"
+        }
+       ],
+       "count": 544,
+       "key": "106",
+       "name": "Orange",
+       "value": "106"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 138,
+         "key": "221",
+         "name": "Bright Purple",
+         "value": "221"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 141,
+         "key": "124",
+         "name": "Bright Reddish Violet",
+         "value": "124"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 127,
+         "key": "222",
+         "name": "Light Purple",
+         "value": "222"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 35,
+         "key": "113",
+         "name": "Transparent Medium Reddish Violet",
+         "value": "113"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 1,
+         "key": "114",
+         "name": "Transparent Medium Reddish Violet With Glitter",
+         "value": "114"
+        }
+       ],
+       "count": 442,
+       "key": "221",
+       "name": "Purple",
+       "value": "221"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 874,
+         "key": "21",
+         "name": "Bright Red",
+         "value": "21"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 303,
+         "key": "154",
+         "name": "Dark Red",
+         "value": "154"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 44,
+         "key": "41",
+         "name": "Transparent Red",
+         "value": "41"
+        }
+       ],
+       "count": 1221,
+       "key": "21",
+       "name": "Red",
+       "value": "21"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 149,
+         "key": "40",
+         "name": "Transparent",
+         "value": "40"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 2,
+         "key": "117",
+         "name": "Transparent With Glitter",
+         "value": "117"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 13,
+         "key": "360",
+         "name": "Transparent With Opalescence",
+         "value": "360"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 1499,
+         "key": "1",
+         "name": "White",
+         "value": "1"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 30,
+         "key": "329",
+         "name": "White Glow",
+         "value": "329"
+        }
+       ],
+       "count": 1693,
+       "key": "1",
+       "name": "White",
+       "value": "1"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": [
+        {
+         "__typename": "FacetValue",
+         "count": 758,
+         "key": "24",
+         "name": "Bright Yellow",
+         "value": "24"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 197,
+         "key": "226",
+         "name": "Cool Yellow",
+         "value": "226"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 277,
+         "key": "191",
+         "name": "Flame Yellowish Orange",
+         "value": "191"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 15,
+         "key": "49",
+         "name": "Transparent Fluorescent Green",
+         "value": "49"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 28,
+         "key": "44",
+         "name": "Transparent Yellow",
+         "value": "44"
+        },
+        {
+         "__typename": "FacetValue",
+         "count": 104,
+         "key": "368",
+         "name": "Vibrant Yellow",
+         "value": "368"
+        }
+       ],
+       "count": 1379,
+       "key": "24",
+       "name": "Yellow",
+       "value": "24"
+      }
+     ],
+     "name": "Color"
+    },
+    {
+     "__typename": "Facet",
+     "id": "element.facet.deliveryChannel",
+     "key": "variants.attributes.deliveryChannel.zxx-US",
+     "labels": [
+      {
+       "__typename": "FacetValue",
+       "children": null,
+       "count": 14131,
+       "key": "bap",
+       "name": "bap",
+       "value": "bap"
+      },
+      {
+       "__typename": "FacetValue",
+       "children": null,
+       "count": 1490,
+       "key": "pab",
+       "name": "pab",
+       "value": "pab"
+      }
+     ],
+     "name": "element.facet.deliveryChannel"
+    }
+   ],
+   "results": [
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_49",
+       "name": "Food \u0026 Drink"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_6",
+       "name": "Minifigure Accessories"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_312",
+       "name": "Medium Nougat"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_192",
+       "name": "Brown"
+      }
+     ],
+     "id": "0298f7ca-a6ca-46ca-af0b-3480e302ca5a",
+     "inStock": true,
+     "name": "MINI PRETZEL W. 3.2 SHAFT",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "312",
+       "deliveryChannel": "pab",
+       "designNumber": 77082,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6359941",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 11,
+       "formattedAmount": "$0.11"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_16",
+       "name": "Plates, Modified"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_199",
+       "name": "Dark Stone Grey"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_194",
+       "name": "Grey"
+      }
+     ],
+     "id": "dc6c1a85-42e2-4246-96c1-20166b8556f4",
+     "inStock": true,
+     "name": "PLATE 1X1, W/ 1.5 PLATE 1X1, DOWNWARDS",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "199",
+       "deliveryChannel": "pab",
+       "designNumber": 36841,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6413106",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 4,
+       "formattedAmount": "$0.04"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_17",
+       "name": "Plates, Round \u0026 Angles"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_194",
+       "name": "Medium Stone Grey"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_194",
+       "name": "Grey"
+      }
+     ],
+     "id": "5af1b0b9-ba68-4d67-884a-6fe461ce9bc4",
+     "inStock": true,
+     "name": "TILE 1X2, W/ 1/2 CIRCLE",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "194",
+       "deliveryChannel": "pab",
+       "designNumber": 1748,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6408629",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 10,
+       "formattedAmount": "$0.10"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_86",
+       "name": "Functional Elements"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_14",
+       "name": "Miscellaneous"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_199",
+       "name": "Dark Stone Grey"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_194",
+       "name": "Grey"
+      }
+     ],
+     "id": "80d9d7b9-4917-4889-a9a2-ce9edb6526be",
+     "inStock": true,
+     "name": "BALL 3M, 1/2",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "199",
+       "deliveryChannel": "pab",
+       "designNumber": 44359,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6408296",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 25,
+       "formattedAmount": "$0.25"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_28",
+       "name": "Trees \u0026 Plants"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_8",
+       "name": "Animals \u0026 Nature"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_151",
+       "name": "Sand Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "aa44d802-1e38-4ac0-a621-1f54b30e5945",
+     "inStock": true,
+     "name": "BAMBOO LEAVES 3X3",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "151",
+       "deliveryChannel": "pab",
+       "designNumber": 30176,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6409581",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 20,
+       "formattedAmount": "$0.20"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_40",
+       "name": "Minifigure Torso \u0026 Legs"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_7",
+       "name": "Minifigure Parts"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_151",
+       "name": "Sand Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "ec92f732-d69d-4a46-84f3-fe9c92ed94b2",
+     "inStock": true,
+     "name": "MINI UPPER PART, NO. 6229",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "151",
+       "deliveryChannel": "pab",
+       "designNumber": 76382,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6406106",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 82,
+       "formattedAmount": "$0.82"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_40",
+       "name": "Minifigure Torso \u0026 Legs"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_7",
+       "name": "Minifigure Parts"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_21",
+       "name": "Bright Red"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_21",
+       "name": "Red"
+      }
+     ],
+     "id": "649c8c6e-8fee-4b66-a004-3e3c011cc2db",
+     "inStock": true,
+     "name": "MINI UPPER PART, NO. 6227",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "21",
+       "deliveryChannel": "pab",
+       "designNumber": 76382,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6405989",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 82,
+       "formattedAmount": "$0.82"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_17",
+       "name": "Plates, Round \u0026 Angles"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_40",
+       "name": "Transparent"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_1",
+       "name": "White"
+      }
+     ],
+     "id": "01952336-693f-4039-bcd2-97e75487eda1",
+     "inStock": true,
+     "name": "1/4 CIRCLE TILE 1X1",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "40",
+       "deliveryChannel": "pab",
+       "designNumber": 84411,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6404363",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 8,
+       "formattedAmount": "$0.08"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_15",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_37",
+       "name": "Bright Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "85da7a53-35de-434a-9f46-945b768e915f",
+     "inStock": true,
+     "name": "PLATE 1X1",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "37",
+       "deliveryChannel": "pab",
+       "designNumber": 3024,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6401817",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 5,
+       "formattedAmount": "$0.05"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_15",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_194",
+       "name": "Medium Stone Grey"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_194",
+       "name": "Grey"
+      }
+     ],
+     "id": "6cca15a6-0f36-4956-aa1e-a45602a47ffc",
+     "inStock": true,
+     "name": "PLATE 1X1X2/3",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "194",
+       "deliveryChannel": "pab",
+       "designNumber": 86996,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6401023",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 9,
+       "formattedAmount": "$0.09"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_17",
+       "name": "Plates, Round \u0026 Angles"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_151",
+       "name": "Sand Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "2a60c41a-48fa-42f1-b369-31e98a516ee9",
+     "inStock": true,
+     "name": "PLATE 1X1 ROUND",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "151",
+       "deliveryChannel": "pab",
+       "designNumber": 6141,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6403175",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 4,
+       "formattedAmount": "$0.04"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_28",
+       "name": "Trees \u0026 Plants"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_8",
+       "name": "Animals \u0026 Nature"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_141",
+       "name": "Earth Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "37f2d89e-2716-4423-a13e-2775f67a2c6d",
+     "inStock": true,
+     "name": "PLANT, W/ PLATE 1X1, NO. 1",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "141",
+       "deliveryChannel": "pab",
+       "designNumber": 32607,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6400754",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 5,
+       "formattedAmount": "$0.05"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_28",
+       "name": "Trees \u0026 Plants"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_8",
+       "name": "Animals \u0026 Nature"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_37",
+       "name": "Bright Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "43826546-9c8f-4ffd-a1ed-6b8d93df92ea",
+     "inStock": true,
+     "name": "PLANT, W/ 3.2 SHAFT, NO. 4",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "37",
+       "deliveryChannel": "pab",
+       "designNumber": 1747,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6400112",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 24,
+       "formattedAmount": "$0.24"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_16",
+       "name": "Plates, Modified"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_141",
+       "name": "Earth Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "865397e0-0817-43d7-b36a-221e8de50ac0",
+     "inStock": true,
+     "name": "PLATE 1X1, W/ 3.2 SHAFT AND 1.5 HOLE",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "141",
+       "deliveryChannel": "pab",
+       "designNumber": 31561,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6392975",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 4,
+       "formattedAmount": "$0.04"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_16",
+       "name": "Plates, Modified"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_141",
+       "name": "Earth Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "2345de40-42a5-421c-b014-aeaf0fdfd53a",
+     "inStock": true,
+     "name": "PLATE 1X1 ROUND W/ HORIZONTAL 3.2 SHAFT",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "141",
+       "deliveryChannel": "pab",
+       "designNumber": 32828,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6392974",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 4,
+       "formattedAmount": "$0.04"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_17",
+       "name": "Plates, Round \u0026 Angles"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_3",
+       "name": "Plates"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_199",
+       "name": "Dark Stone Grey"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_194",
+       "name": "Grey"
+      }
+     ],
+     "id": "dec8a54c-8ba9-409a-9eca-b207cf84325e",
+     "inStock": true,
+     "name": "FLAT TILE 1X1, 1/2 CIRCLE",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "199",
+       "deliveryChannel": "pab",
+       "designNumber": 35399,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6362252",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 3,
+       "formattedAmount": "$0.03"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_40",
+       "name": "Minifigure Torso \u0026 Legs"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_7",
+       "name": "Minifigure Parts"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_141",
+       "name": "Earth Green"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_28",
+       "name": "Green"
+      }
+     ],
+     "id": "92d0af7f-c2ac-4d56-9a9b-a8b1b94d23c5",
+     "inStock": true,
+     "name": "MINI UPPER PART, NO. 6228",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "141",
+       "deliveryChannel": "pab",
+       "designNumber": 76382,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6405994",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 82,
+       "formattedAmount": "$0.82"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_44",
+       "name": "Minifigure Headwear"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_6",
+       "name": "Minifigure Accessories"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_297",
+       "name": "Warm Gold"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_346",
+       "name": "Metallic"
+      }
+     ],
+     "id": "ae5e460e-27a3-4652-85f4-e96ed87a06aa",
+     "inStock": true,
+     "name": "VISIR",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "297",
+       "deliveryChannel": "pab",
+       "designNumber": 2594,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6400204",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 43,
+       "formattedAmount": "$0.43"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_59",
+       "name": "Animals \u0026 Creatures"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_8",
+       "name": "Animals \u0026 Nature"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_21",
+       "name": "Bright Red"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_21",
+       "name": "Red"
+      }
+     ],
+     "id": "df3306c5-c21e-46c0-9d13-64c64508c4c3",
+     "inStock": true,
+     "name": "BIRD, NO. 20",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "21",
+       "deliveryChannel": "pab",
+       "designNumber": 100043,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6399031",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 116,
+       "formattedAmount": "$1.16"
+      }
+     }
+    },
+    {
+     "__typename": "SingleVariantElement",
+     "categories": [
+      {
+       "__typename": "Category",
+       "key": "SUBCAT_42",
+       "name": "Minifigure Heads"
+      },
+      {
+       "__typename": "Category",
+       "key": "CAT_7",
+       "name": "Minifigure Parts"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_24",
+       "name": "Bright Yellow"
+      },
+      {
+       "__typename": "Category",
+       "key": "COLOUR_FAMILY_24",
+       "name": "Yellow"
+      }
+     ],
+     "id": "2b971223-b112-494b-ba08-bc86c324c48a",
+     "inStock": true,
+     "name": "MINI HEAD, NO. 3739",
+     "variant": {
+      "__typename": "ElementVariant",
+      "attributes": {
+       "__typename": "ElementAttributes",
+       "colourId": "24",
+       "deliveryChannel": "pab",
+       "designNumber": 98336,
+       "indexImageURL": null,
+       "maxOrderQuantity": 0,
+       "quantityInSet": null,
+       "system": "LEGO"
+      },
+      "id": "6384058",
+      "price": {
+       "__typename": "Price",
+       "centAmount": 26,
+       "formattedAmount": "$0.26"
+      }
+     }
+    }
+   ],
+   "set": null,
+   "sortOptions": [
+    {
+     "__typename": "SortOptions",
+     "analyticLabel": null,
+     "direction": "DESC",
+     "id": "RELEVANCE_DESC",
+     "key": "RELEVANCE",
+     "label": "Relevance"
+    },
+    {
+     "__typename": "SortOptions",
+     "analyticLabel": null,
+     "direction": "ASC",
+     "id": "PRICE_ASC",
+     "key": "PRICE",
+     "label": "Price: Low to High"
+    },
+    {
+     "__typename": "SortOptions",
+     "analyticLabel": null,
+     "direction": "DESC",
+     "id": "PRICE_DESC",
+     "key": "PRICE",
+     "label": "Price: High to Low"
+    },
+    {
+     "__typename": "SortOptions",
+     "analyticLabel": null,
+     "direction": "ASC",
+     "id": "NAME_ASC",
+     "key": "NAME",
+     "label": "A-Z"
+    },
+    {
+     "__typename": "SortOptions",
+     "analyticLabel": null,
+     "direction": "DESC",
+     "id": "CREATED_AT_DESC",
+     "key": "CREATED_AT",
+     "label": "Newest"
+    }
+   ],
+   "total": 15621
+  }
+ }
+}

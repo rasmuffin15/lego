@@ -1,0 +1,5 @@
+go 1.20
+
+use ./backend/lego_part_search
+use ./backend/toypro_set_search
+use ./backend/toypro_set_parts_search
